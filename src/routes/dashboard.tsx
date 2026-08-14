@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import DashboardGuard from "@/app/components/DashboardGuard.jsx";
+import DashboardGuard from "@/app/components/DashboardGuard";
 
 export const Route = createFileRoute("/dashboard")({
   ssr: false,
